@@ -1,24 +1,25 @@
-# Práctica de introducción al testing
+# Práctica pruebas e2e Puppeteer
 
 ## Definición
 
-Implementar una pila Last-In-First-Out (LIFO) en JavaScript
-
-Crear un estructura que permita agregar elementos. Al recuperar los elementos devolverá el último agregado. Al devolverlo lo eliminrá de la pila.
+Probar el funcionamiento de una web usando _Puppeteer_.
+Preferiblemente usa una tuya que tenga una parte accesible al público. 
+Si no puedes, o no quieres, te propongo que uses https://www.timeanddate.com/
 
 ### Requerimientos
 
-Se añadirán uno a uno con el método `push(item)`
+Comprobar respuesta correctra a una url
+Por ejemplo https://www.timeanddate.com/worldclock/tu-pais/tu-ciudad
 
-Se recuperarán uno a uno con el método `pop()`
+Sacar instantanea del resultado
+
+Comprobarlo emulando un dispositivo movil de tu elección
 
 #### Recomendaciones
 
-Realizar el ejercicio creando antes el código y después el test.
+Seguir la estructura _Arrange-Act-Assert_
 
-Repetir el ejercicio, escribiendo primero el código.
-
-Documentarlo siguiendo la técnica BDD
+En los mensajes escritos usar el patrón _Given-When-Then_
 
 ### Commits y deploy
 
