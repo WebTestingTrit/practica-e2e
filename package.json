@@ -1,31 +1,32 @@
 {
-  "name": "quark",
+  "name": "practica-e2e",
   "version": "1.1.2",
-  "description": "Fundamental project template",
+  "description": "Ejercicio práctico e2e con puppeteer",
   "author": {
     "name": "Alberto Basalo",
-    "email": "albertobasalo@agorabinaria.com",
+    "email": "albertobasalo@hotmail.com",
     "url": "https://twitter.com/albertobasalo"
   },
-  "homepage": "https://github.com/AtomicBuilders/quark#readme",
+  "homepage": "https://github.com/WebTestingTrit/practica-e2e#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtomicBuilders/quark.git"
+    "url": "git+https://github.com/WebTestingTrit/practica-e2e.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtomicBuilders/quark/issues"
+    "url": "https://github.com/WebTestingTrit/practica-e2e/issues"
   },
   "scripts": {
-    "deploy": "standard-version && git push --follow-tags origin master",
+    "predeploy": "standard-version ",
+    "deploy": "git push --follow-tags origin main",
     "updates": "ncu -u"
   },
   "devDependencies": {
-    "eslint": "^7.8.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1",
-    "standard-version": "^9.0.0",
-    "npm-check-updates": "^8.1.1"
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2",
+    "npm-check-updates": "^12.1.0"
   }
 }
