@@ -27,6 +27,6 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2",
-    "npm-check-updates": "^12.1.0"
+    "npm-check-updates": "^16.7.4"
   }
 }
